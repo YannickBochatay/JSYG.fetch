@@ -4,8 +4,8 @@
 (function(root,factory) {
     
     if (typeof define == 'function' && define.amd) {
-        if (root.fetch) define("jsyg-fetch",factory(root));
-        else define("jsyg-fetch",["fetch"],factory(root));
+        if (root.fetch) define("jsyg-fetch",function() { return factory(root); });
+        else define("jsyg-fetch",["fetch"],function() { return factory(root); });
     }
     else if (root.fetch) factory(root);
     else throw new Error("fetch polyfill is needed");
