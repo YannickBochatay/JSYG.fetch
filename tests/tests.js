@@ -17,10 +17,10 @@ if (typeof require!= "undefined") {
     else factory(fetch);
     
 }(function(fetch) {
-    
+      
     QUnit.test( "assert.async() test", function( assert ) {
         
-        var url = "data2.json";
+        var url = "data.json";
         var done = assert.async();
         
         fetch(url)
