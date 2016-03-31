@@ -8,7 +8,8 @@
         "globals"
     ],
      "dependencies": {
-         "fetch":"latest"
+         "fetch":"latest",
+         "es6-promise":"latest"
      },
     "devDependencies": {
         "qunit": "latest",
