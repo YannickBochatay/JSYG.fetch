@@ -1,0 +1,32 @@
+{
+  "name": "jsyg-fetch",
+  "version": "0.0.8",
+  "description": "Fetch polyfill with control of http status",
+  "main": "JSYG.fetch.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/YannickBochatay/JSYG.fetch.git"
+  },
+  "keywords": [
+    "svg",
+    "jquery",
+    "javascript",
+    "library"
+  ],
+  "author": "Yannick Bochatay",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/YannickBochatay/JSYG.fetch/issues"
+  },
+  "homepage": "https://github.com/YannickBochatay/JSYG.fetch#readme",
+  "dependencies": {
+    "es6-promise": "^3.2.1",
+    "whatwg-fetch": "^1.0.0"
+  }
+}
